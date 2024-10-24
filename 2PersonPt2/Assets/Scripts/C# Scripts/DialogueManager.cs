@@ -16,7 +16,6 @@ public class DialogueManager : MonoBehaviour
     private static DialogueManager instance;
     [SerializeField] private GameObject[] choices;
     private TextMeshProUGUI[] choicesText;
-    [SerializeField] string SceneName;
     
     private void Awake(){
         if(instance != null){
@@ -38,9 +37,6 @@ public class DialogueManager : MonoBehaviour
     }
 
     private void Update(){
-        if(!dialogueIsPlaying){
-            SceneManager.LoadScene(SceneName);
-        }
         if(Input.GetMouseButtonDown(0)){
             ContinueStory();
         }
@@ -95,5 +91,23 @@ public class DialogueManager : MonoBehaviour
 
     }
 
-    
+    private IEnumerator SelectFirstChoice() 
+    {
+        // Event System requires we clear it first, then wait
+        // for at least one frame before we set the current selected object.
+        EventSystem.current.SetSelectedGameObject(null);
+        yield return new WaitForEndOfFrame();
+        EventSystem.current.SetSelectedGameObject(choices[0].gameObject);
+    }
+
+    public void MakeChoice(int choiceIndex)
+    {
+        bool canContinueToNextLine = true;
+        if (canContinueToNextLine) 
+        {
+            currentStory.ChooseChoiceIndex(choiceIndex);
+            ContinueStory();
+        }
+    }
+
 }
