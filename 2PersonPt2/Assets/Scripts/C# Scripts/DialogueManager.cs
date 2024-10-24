@@ -60,6 +60,7 @@ public class DialogueManager : MonoBehaviour
         dialogueIsPlaying = false;
         dialoguePanel.SetActive(false);
         dialogueText.text = "";
+        Debug.Log("Dialouge was finished");
     }
 
     private void ContinueStory(){
@@ -106,6 +107,7 @@ public class DialogueManager : MonoBehaviour
         if (canContinueToNextLine) 
         {
             currentStory.ChooseChoiceIndex(choiceIndex);
+            Debug.Log("Option was chosen");
             ContinueStory();
         }
     }
