@@ -27,6 +27,9 @@ Curiosity killed the cat is a noir themed mystery sims where the player interrog
 - Font : [Jackwrite by Jack Daw](https://www.dafont.com/jackwrite.font)
 - Music : [Urban Alley by TFSui](https://assetstore.unity.com/packages/audio/music/urban-jazz-jazz-soundtrack-202235)
 
+- Art : Nicki Baumgart, Author
+- Code : Lorelai Davis, Author
+
 ## Files in the repository
 
 ./2PersonPt2/ - this folder contains the Unity game files associated with this game.
