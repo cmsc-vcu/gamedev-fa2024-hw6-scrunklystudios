@@ -1,13 +1,10 @@
 ---
-title: Elevator Wipeout - Sidecars and PBRs - Fall 2024
+title: Curiosity Killed the Cat - Fall 2024
 ---
-
-Elevator Wipeout is a save-the-world game where the player does all they can to prevent bad guys from destroying a space elevator.
 
 ## Game Description
 
-Provide more details of the game.  Discuss any unique game play features.  Why is
-this game different from others?  What is the goal for playing?
+Curiosity killed the cat is a noir themed mystery sims where the player interrogates three suspects with the hope of figuring out who the killer is. The outcome of the story depends on who you accuse.
 
 ::: {layout-ncol="2"}
 ![](assets/elevator-location.jpg)
@@ -17,16 +14,19 @@ this game different from others?  What is the goal for playing?
 
 ## Important Links
 
-- Game URL: < ... >
-- GITHUB URL: < ... >
-- Gameplay Video URL: < ... >
-- Google Doc writeup: < ... >
+- Game URL: [WebGL - Curiosity killed the cat](https://play.unity.com/en/games/8c79ad8b-b3b2-46bc-8ff0-66a81c95dea1/webgl-builds)
+- GITHUB URL: [Curiosity Killed the Cat github](https://github.com/cmsc-vcu/gamedev-fa2024-hw6-scrunklystudios/tree/main)
+- Gameplay Video URL: [Youtube Link](https://www.youtube.com/watch?v=ZwgL3Y_Wu9Y)
+- Google Doc writeup: [Curiosity Killed the Cat Doc](https://docs.google.com/document/d/1OUOqXnNQrW_ebPyOOYvQCDGzUjEBqzjK3d-A8S1hJQs/edit?usp=sharing)
 
 ## Credits
 
-* Where did you get any resources? This might include sprites, images, sound, video, and any other assets.
-* Was this game inspired by another game? 
-* What role did the author(s) play in developing the game?
+- Title Font : [Outwrite by TFF](https://www.dafont.com/outwrite.font)
+- Font : [Jackwrite by Jack Daw](https://www.dafont.com/jackwrite.font)
+- Music : [Urban Alley by TFSui](https://assetstore.unity.com/packages/audio/music/urban-jazz-jazz-soundtrack-202235)
+
+- Art - Nicki Baumgart, Author
+- Coding - Lorelai Davis, Author
 
 ## About this document
 
