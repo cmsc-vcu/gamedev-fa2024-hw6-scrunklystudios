@@ -14,7 +14,7 @@ this game different from others?  What is the goal for playing?
 
 ## Important Links
 
-- Game URL: Unity Play - Curiosity killed the cat
+- Game URL: [WebGL - Curiosity killed the cat]()
 - GITHUB URL: [Curiosity Killed the Cat github](https://github.com/cmsc-vcu/gamedev-fa2024-hw6-scrunklystudios/tree/main)
 - Gameplay Video URL: [Youtube Link]()
 - Google Doc writeup: [Curiosity Killed the Cat Doc](https://docs.google.com/document/d/1OUOqXnNQrW_ebPyOOYvQCDGzUjEBqzjK3d-A8S1hJQs/edit?usp=sharing)
