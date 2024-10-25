@@ -1,6 +1,6 @@
 # Curiosity Killed the Cat - Fall 2024
 
-Curiosity killed the cat is a noir themed mystery sims where the player interrogates three suspects with the hope of figuring out who the killer is. The outcome of the story depends on who you accuse.
+![main menu cat game](https://github.com/user-attachments/assets/8ecf884b-20a8-4ef0-8a86-1469ed8005d5)
 
 ## Authors
 
@@ -9,8 +9,11 @@ Curiosity killed the cat is a noir themed mystery sims where the player interrog
 
 ## Game Description
 
-Provide more details of the game.  Discuss any unique game play features.  Why is
-this game different from others?  What is the goal for playing?
+Curiosity killed the cat is a noir themed mystery sims where the player interrogates three suspects with the hope of figuring out who the killer is. The outcome of the story depends on who you accuse.
+
+
+![banner](https://github.com/user-attachments/assets/34870e1d-edc1-4d5d-bd61-135f6aa20257)
+
 
 ## Important Links
 
