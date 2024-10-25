@@ -1,7 +1,6 @@
 # Curiosity Killed the Cat - Fall 2024
 
-Elevator Wipeout is a save-the-world game where the player does all they can to prevent bad guys from destroying a space elevator.  If the bad guys win, the earth
-is destroyed in a spectacular, slow-motion extravaganza.
+Curiosity killed the cat is a noir themed mystery sims where the player interrogates three suspects with the hope of figuring out who the killer is. The outcome of the story depends on who you accuse.
 
 ## Authors
 
@@ -15,10 +14,10 @@ this game different from others?  What is the goal for playing?
 
 ## Important Links
 
-- Game URL: < ... >
-- GITHUB URL: <[ ...](https://github.com/cmsc-vcu/gamedev-fa2024-hw6-scrunklystudios/edit/main/README.md) >
-- Gameplay Video URL: < ... >
-- Google Doc writeup: <[ ... ](https://docs.google.com/document/d/1OUOqXnNQrW_ebPyOOYvQCDGzUjEBqzjK3d-A8S1hJQs/edit?usp=sharing)>
+- Game URL: <Unity Play - Curiosity killed the cat>
+- GITHUB URL: <[Curiosity Killed the Cat github](https://github.com/cmsc-vcu/gamedev-fa2024-hw6-scrunklystudios/edit/main/README.md) >
+- Gameplay Video URL: <Youtube>
+- Google Doc writeup: <[Curiosity Killed the Cat Doc](https://docs.google.com/document/d/1OUOqXnNQrW_ebPyOOYvQCDGzUjEBqzjK3d-A8S1hJQs/edit?usp=sharing)>
 
 ## Files in the repository
 
