@@ -14,10 +14,10 @@ this game different from others?  What is the goal for playing?
 
 ## Important Links
 
-- Game URL: <Unity Play - Curiosity killed the cat>
-- GITHUB URL: <[Curiosity Killed the Cat github](https://github.com/cmsc-vcu/gamedev-fa2024-hw6-scrunklystudios/edit/main/README.md) >
+- Game URL: Unity Play - Curiosity killed the cat
+- GITHUB URL: [Curiosity Killed the Cat github](https://github.com/cmsc-vcu/gamedev-fa2024-hw6-scrunklystudios/edit/main/README.md)
 - Gameplay Video URL: <Youtube>
-- Google Doc writeup: <[Curiosity Killed the Cat Doc](https://docs.google.com/document/d/1OUOqXnNQrW_ebPyOOYvQCDGzUjEBqzjK3d-A8S1hJQs/edit?usp=sharing)>
+- Google Doc writeup: [Curiosity Killed the Cat Doc](https://docs.google.com/document/d/1OUOqXnNQrW_ebPyOOYvQCDGzUjEBqzjK3d-A8S1hJQs/edit?usp=sharing)
 
 ## Files in the repository
 
