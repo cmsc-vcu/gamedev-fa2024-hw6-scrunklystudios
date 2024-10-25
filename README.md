@@ -19,10 +19,10 @@ this game different from others?  What is the goal for playing?
 - Gameplay Video URL: [Youtube Link]()
 - Google Doc writeup: [Curiosity Killed the Cat Doc](https://docs.google.com/document/d/1OUOqXnNQrW_ebPyOOYvQCDGzUjEBqzjK3d-A8S1hJQs/edit?usp=sharing)
 
-  # Asset Credits
-  - Title Font : [Outwrite by TFF](https://www.dafont.com/outwrite.font)
-  - Font : [Jackwrite by Jack Daw](https://www.dafont.com/jackwrite.font)
-  - Music : [Urban Alley by TFSui](https://assetstore.unity.com/packages/audio/music/urban-jazz-jazz-soundtrack-202235)
+#### Asset Credits
+- Title Font : [Outwrite by TFF](https://www.dafont.com/outwrite.font)
+- Font : [Jackwrite by Jack Daw](https://www.dafont.com/jackwrite.font)
+- Music : [Urban Alley by TFSui](https://assetstore.unity.com/packages/audio/music/urban-jazz-jazz-soundtrack-202235)
 
 ## Files in the repository
 
