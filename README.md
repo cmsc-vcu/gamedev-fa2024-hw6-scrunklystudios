@@ -2,7 +2,6 @@
 
 ![main menu cat game](https://github.com/user-attachments/assets/8ecf884b-20a8-4ef0-8a86-1469ed8005d5)
 
-
 ## Authors
 
 - Nicki Baumgart (baumgartae@vcu.edu)
@@ -11,6 +10,10 @@
 ## Game Description
 
 Curiosity killed the cat is a noir themed mystery sims where the player interrogates three suspects with the hope of figuring out who the killer is. The outcome of the story depends on who you accuse.
+
+
+![banner](https://github.com/user-attachments/assets/34870e1d-edc1-4d5d-bd61-135f6aa20257)
+
 
 ## Important Links
 
