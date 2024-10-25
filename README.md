@@ -14,9 +14,9 @@ this game different from others?  What is the goal for playing?
 
 ## Important Links
 
-- Game URL: [WebGL - Curiosity killed the cat]()
+- Game URL: [WebGL - Curiosity killed the cat](https://play.unity.com/en/games/8c79ad8b-b3b2-46bc-8ff0-66a81c95dea1/webgl-builds)
 - GITHUB URL: [Curiosity Killed the Cat github](https://github.com/cmsc-vcu/gamedev-fa2024-hw6-scrunklystudios/tree/main)
-- Gameplay Video URL: [Youtube Link]()
+- Gameplay Video URL: [Youtube Link](https://www.youtube.com/watch?v=ZwgL3Y_Wu9Y)
 - Google Doc writeup: [Curiosity Killed the Cat Doc](https://docs.google.com/document/d/1OUOqXnNQrW_ebPyOOYvQCDGzUjEBqzjK3d-A8S1hJQs/edit?usp=sharing)
 
 #### Asset Credits
