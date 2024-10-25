@@ -2,10 +2,10 @@ project:
   output-dir: ../docs
 
 author:
-  - name: John Leonard
-    email: jdleonard@vcu.edu
-  - name: Jason Bennett
-    email: jebennett@vcu.edu
+  - name: Nicki Baumgart
+    email: baumgartae@vcu.edu
+  - name: Lorelai Davis
+    email: davisla10@vcu.edu
 
 format:
   html:
