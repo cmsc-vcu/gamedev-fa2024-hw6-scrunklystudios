@@ -12,9 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/DecisionScene.unity
     guid: d8ed4e1c2fa6a7e4aaa42c2d27a6c933
   - enabled: 1
-    path: Assets/Scenes/InterrogationSceneDelilah.unity
-    guid: a8546185c74cbc3428800e7f428d96aa
+    path: Assets/Scenes/AccusationScene.unity
+    guid: 496adc2abaa22894aa2fb9d1b5fcea92
   - enabled: 1
-    path: Assets/Scenes/InterrogationSceneToby.unity
-    guid: 096a8e3acbd43754ea89d0e36dfac2e6
+    path: Assets/Scenes/BadScene.unity
+    guid: d710c893bc0d67a44914ad05e290193b
+  - enabled: 1
+    path: Assets/Scenes/SuccessScene.unity
+    guid: 63f8caef3fd34374e9f7892243eaea39
   m_configObjects: {}

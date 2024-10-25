@@ -12,7 +12,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private GameObject dialoguePanel;
     [SerializeField] private TextMeshProUGUI dialogueText;
     private Story currentStory;
-    private bool dialogueIsPlaying;
+    public bool dialogueIsPlaying {get;private set;}
     private static DialogueManager instance;
     [SerializeField] private GameObject[] choices;
     private TextMeshProUGUI[] choicesText;
@@ -54,9 +54,7 @@ public class DialogueManager : MonoBehaviour
         ContinueStory();
     }
 
-    private IEnumerator ExitDialogueMode(){
-        yield return new WaitForSeconds(0.2f);
-
+    private void ExitDialogueMode(){
         dialogueIsPlaying = false;
         dialoguePanel.SetActive(false);
         dialogueText.text = "";
@@ -68,7 +66,7 @@ public class DialogueManager : MonoBehaviour
             dialogueText.text = currentStory.Continue();
             DisplayChoices();
         }else{
-            StartCoroutine(ExitDialogueMode());
+            ExitDialogueMode();
         }
     }
 

@@ -3,13 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class DialogueTrigger : MonoBehaviour
+public class EndTrigger : MonoBehaviour
 {
     [Header("Visual Cue")]
     [SerializeField] private GameObject visualCue;
 
     private bool playerInRange;
-    [SerializeField] string nextScene;
+
+    public bool isGuilty;
+    public string SucessScene;
+    public string BadScene;
 
     private void Awake(){
         playerInRange = false;
@@ -21,18 +24,24 @@ public class DialogueTrigger : MonoBehaviour
             visualCue.SetActive(true);
             if(Input.GetMouseButtonDown(0)){
                 Debug.Log("GameObject was clicked");
-                SceneManager.LoadScene(nextScene);
-                Debug.Log("Scene was changed");
+                WhichEnd();
             }
         }else{
             visualCue.SetActive(false);
         }
     }
 
-    private void OnMouseOver(){
-        playerInRange = true;
+    private void WhichEnd(){
+        if(isGuilty){
+            SceneManager.LoadScene(SucessScene);
+        }else{
+            SceneManager.LoadScene(BadScene);
+        }
     }
 
+    private void OnMouseEnter(){
+        playerInRange = true;
+    }
     private void OnMouseExit(){
         playerInRange = false;
     }

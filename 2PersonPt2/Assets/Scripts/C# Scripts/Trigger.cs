@@ -10,16 +10,18 @@ public class Trigger : MonoBehaviour
 
     private bool playerInRange;
 
+    public bool clicked;
+
     [Header("Ink JSON")]
     [SerializeField] private TextAsset inkJSON;
 
     //[Header("Other Speakers")]
     //[SerializeField] GameObject s1;
     //[SerializeField] GameObject s2;
-
     private void Awake(){
         playerInRange = false;
         visualCue.SetActive(false);
+        clicked = false;
         //s1.SetActive(true);
         //s2.SetActive(true);
     }
@@ -28,6 +30,7 @@ public class Trigger : MonoBehaviour
         if(playerInRange){
             visualCue.SetActive(true);
             if(Input.GetMouseButtonDown(0)){
+                clicked = true;
                 Debug.Log("GameObject was clicked");
                 DialogueManager.GetInstance().EnterDialogueMode(inkJSON);
                 //s1.SetActive(false);
@@ -38,11 +41,18 @@ public class Trigger : MonoBehaviour
         }
     }
 
-    private void OnMouseOver(){
+    private void OnMouseEnter(){
+        playerInRange = true;
+    }
+    private void OnMouseExit(){
+        playerInRange = false;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other) {
         playerInRange = true;
     }
 
-    private void OnMouseExit(){
+    private void OnTriggerExit2D(Collider2D other){
         playerInRange = false;
     }
 }
